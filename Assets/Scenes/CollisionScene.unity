@@ -367,7 +367,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!136 &426814955
 CapsuleCollider:
@@ -1054,9 +1054,9 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 961739753}
   - {fileID: 203844589}
   - {fileID: 505660771}
+  - {fileID: 961739753}
   - {fileID: 1593716021}
   - {fileID: 426814958}
   - {fileID: 2561906002313781447}
