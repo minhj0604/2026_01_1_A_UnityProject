@@ -7,22 +7,22 @@ public class Fruit : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (hasMerged)
-        {
-            return;
-        }
-        Fruit otherFruit = collision.gameObject.GetComponent<Fruit>();
+        /*   if (hasMerged)
+           {
+               return;
+           }
+           Fruit otherFruit = collision.gameObject.GetComponent<Fruit>();
 
-        if (otherFruit != null && !otherFruit.hasMerged && otherFruit.fruitType == fruitType)
-        {
-            hasMerged = true;
-            otherFruit.hasMerged = true;
+           if (otherFruit != null && !otherFruit.hasMerged && otherFruit.fruitType == fruitType)
+           {
+               hasMerged = true;
+               otherFruit.hasMerged = true;
 
-            Vector3 mergePosition = (transform.position + otherFruit.transform.position) / 2f;
+               Vector3 mergePosition = (transform.position + otherFruit.transform.position) / 2f;
 
-            Destroy(otherFruit.gameObject);
-            Destroy(gameObject);
-        }
+               Destroy(otherFruit.gameObject);
+               Destroy(gameObject);
+           } */
     }
 
 }
